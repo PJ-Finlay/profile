@@ -3,4 +3,9 @@ git config --global user.name "P.J. Finlay"
 git config --global user.email "pjappdevelopment@gmail.com"
 git config --global core.editor "vim"
 
+# Add ~/.local/bin to $PATH
+PATH=$PATH:~/.local/bin
+
+# Aliases
 alias venv="virtualenv env && source env/bin/activate"
+
