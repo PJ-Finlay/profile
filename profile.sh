@@ -14,3 +14,7 @@ alias venv="virtualenv env && source env/bin/activate"
 set -o vi
 set editing-mode vi
 set keymap vi
+
+# Use Control-L to clear with vim keybindings
+bind -m vi-command 'Control-l: clear-screen'
+bind -m vi-insert 'Control-l: clear-screen'
