@@ -10,3 +10,7 @@ PATH=$PATH:~/.local/bin
 # Aliases
 alias venv="virtualenv env && source env/bin/activate"
 
+# Vim editing mode
+set -o vi
+set editing-mode vi
+set keymap vi
